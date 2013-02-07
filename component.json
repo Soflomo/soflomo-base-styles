@@ -1,0 +1,9 @@
+{
+  "name": "soflomo-base-styles",
+  "version": "0.0.1",
+  "main": "./_soflomo-base-styles.scss",
+  "repository": {
+    "type": "git",
+    "url": "Soflomo/soflomo-base-styles.git"
+  }
+}

@@ -1,0 +1,92 @@
+/**
+ * Usefull classes
+ */
+
+.left  { float: left; }
+.right { float: right; }
+.center { margin-left: auto; margin-right: auto; }
+.align-right  { text-align: right; }
+.hidden { display:none; }
+.clear-both { clear:both; }
+.inline { display: inline !important; }
+.display-block { display: block;float: none; }
+.lowercase { text-transform: lowercase; }
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
+img.align-left { float:left; margin:0 1em 1em 0; }
+img.align-right { float:right; margin:0 0 1em 1em; }
+
+/* Horizontal lists now simply add class */
+ul.horizontal { margin: 0; padding: 0; }
+ul.horizontal li { display: inline; }
+
+
+/**
+ * Forms
+ */
+
+form {
+    overflow: visible;
+    margin: 0;
+}
+
+label {
+    overflow: visible;
+    cursor: pointer;
+}
+
+input {
+    font-family: inherit;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+textarea, {
+    padding: 5px;
+    border-color: #E1E1E1;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fdfdfd;
+    width: 290px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    -webkit-appearance: none;
+}
+
+textarea {
+    padding: 7px;
+}
+
+select {
+    width: auto;
+    padding: 0;
+}
+
+input.form-error,
+textarea.form-error {
+    border-color: red;
+}
+
+form ul.errors {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+form .errors li {
+    margin-top: 5px;
+    font-style: italic;
+    color: red;
+}
